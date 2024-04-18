@@ -1,0 +1,19 @@
+@import '@/css/reset.css';
+
+@font-face {
+  font-family: "FredokaLight";
+  font-weight: 400;
+  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FredokaWeight";
+  font-weight: 900;
+  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RubikMonoOne";
+  font-weight: 900;
+  src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("truetype");
+}
