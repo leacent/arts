@@ -1,13 +1,13 @@
 .header {
   display: flex;
-  // width: 100vw;
+  width: 100vw;
   height: 34px;
   align-items: center;
   padding-left: 12px;
+  padding-right: 12px;
   
   .icon-box {
-    border: 1px solid blue;
-    width: 80px;
+    width: 100px;
 
     .menu-icon {
       width: 33px;
@@ -41,6 +41,22 @@
   }
 
   .wallet-box {
-    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+    
+    .wallet-icon {
+      width: 44px;
+    }
+  }
+  
+  .connected-wallet {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    color: #fff;
   }
 }
+

@@ -1,5 +1,10 @@
 @import '@/css/reset.css';
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "FredokaLight";
   font-weight: 400;
@@ -16,4 +21,11 @@
   font-family: "RubikMonoOne";
   font-weight: 900;
   src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("truetype");
+}
+
+.container {
+  height: 100%;
+  width: 100vw;
+  background: linear-gradient(220deg, #11323D 0.32%, #0F1027 71.37%);
+  padding-top: 60px;
 }
