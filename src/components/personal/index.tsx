@@ -5,9 +5,17 @@ import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import store from "@/store";
 import "./index.scss";
+import { useEffect } from "react";
+import { fetchNickName } from "./fetchNickName";
 
 const Personal = () => {
   const userFriendlyAddress = useTonAddress();
+
+  useEffect(() => {
+    // fetchNickName().then((res) => {
+    //   console.log("res fetchNickName", res);
+    // });
+  }, []);
 
   return (
     <Popup
@@ -87,6 +95,17 @@ const Personal = () => {
               <div className="token-price">$0.00</div>
             </div>
           </div>
+        </div>
+        <div className="button-wraper">
+          <Button disabled className="buy-btn">
+            BUY
+          </Button>
+          <Button
+            style={{ color: "#fff", backgroundColor: "#8F33D8" }}
+            className="buy-btn"
+          >
+            Disconnect
+          </Button>
         </div>
       </div>
     </Popup>

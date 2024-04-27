@@ -4,7 +4,6 @@
   background-color: #0c121d;
   color: #fff;
   padding-top: 22px;
-  padding-left: 26px;
 
   .popup-avatar {
     display: flex;
@@ -21,8 +20,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-left: 10px;
     margin-top: 10px;
+    padding-left: 36px;
 
     .user-name {
       color: #fff;
@@ -56,6 +55,7 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 40px;
+    padding-left: 26px;
   }
 
   .token-item {
@@ -65,6 +65,7 @@
     justify-content: space-between;
     padding-right: 30px;
     margin-top: 28px;
+    padding-left: 36px;
 
     .token-icon {
       width: 48px;
@@ -97,5 +98,28 @@
         line-height: normal;
       }
     }
+  }
+
+  .button-wraper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .buy-btn {
+    width: 347px;
+    height: 49px;
+    border-radius: 50px;
+    // background: #8f33d8;
+    border: none;
+    color: #333;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 16px;
   }
 }
