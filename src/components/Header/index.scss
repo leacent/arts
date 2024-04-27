@@ -5,7 +5,8 @@
   align-items: center;
   padding-left: 12px;
   padding-right: 12px;
-  
+  margin-top: 60px;
+
   .icon-box {
     width: 100px;
 
@@ -13,7 +14,7 @@
       width: 33px;
       height: 33px;
     }
-  
+
     .logo-icon {
       width: 29px;
       height: 33px;
@@ -29,10 +30,10 @@
     margin-left: 30px;
     margin-right: 30px;
     justify-content: space-between;
-    
+
     .menu-item {
-      color: #E1E1E1;
-      font-family: "Rubik Mono One";
+      color: #e1e1e1;
+      font-family: "RubikMonoOne";
       font-size: 10px;
       font-style: normal;
       font-weight: 400;
@@ -46,17 +47,16 @@
     align-items: center;
     overflow: hidden;
     color: #fff;
-    
+
     .wallet-icon {
       width: 44px;
     }
   }
-  
+
   .connected-wallet {
     display: flex;
     align-items: center;
-    width: 100px;
-    color: #fff;
+    color: #2d9ddc;
+    font-family: "RubikMonoOne";
   }
 }
-

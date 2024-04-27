@@ -1,6 +1,7 @@
-## Auto Format TSX
+## 格式化TSX文件 vscode Auto Format TSX
 
 ```
+<!-- vscode settings -->
 {
   "editor.formatOnSave": true,
   "typescript.format.enable": false,

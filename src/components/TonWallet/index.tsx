@@ -1,11 +1,14 @@
-"use client"
+"use client";
 
-import { TonConnectUIProvider } from '@tonconnect/ui-react';
+import { TonConnectUIProvider } from "@tonconnect/ui-react";
+import Header from "@/components/Header";
 
 export default function TonWallet({ children }: { children: React.ReactNode }) {
   return (
-    <TonConnectUIProvider manifestUrl="http://192.168.1.12:3000/tonconnect-manifest.json">
-      { children }
+    <TonConnectUIProvider
+      manifestUrl={`${process.env.NEXT_PUBLIC_DOMAIN}/tonconnect-manifest.json`}
+    >
+      {children}
     </TonConnectUIProvider>
   );
 }

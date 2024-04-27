@@ -1,7 +1,7 @@
 "use client";
 
-import Header from "@/components/Header";
 import Image from "next/image";
+import { IdentityTypes } from "@/types";
 import "./page.scss";
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
             className="art-btn"
             width={66}
             height={32}
-            src="/imgs/art-btn.png"
+            src="/imgs/ent-btn.png"
             alt="art-btn"
           ></Image>
         </div>

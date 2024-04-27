@@ -23,9 +23,8 @@
   src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("truetype");
 }
 
-.container {
+body {
   height: 100%;
   width: 100vw;
-  background: linear-gradient(220deg, #11323D 0.32%, #0F1027 71.37%);
-  padding-top: 60px;
+  background-color: #11323D;
 }
