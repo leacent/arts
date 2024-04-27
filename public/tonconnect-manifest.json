@@ -1,5 +1,5 @@
 {
-  "url": "https://4arts.io/",
+  "url": "http://192.168.1.4:3000/",
   "name": "4arts",
-  "iconUrl": "https://4arts.io/favicon.ico"
+  "iconUrl": "http://192.168.1.4:3000/favicon.ico"
 }

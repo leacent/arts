@@ -1,4 +1,5 @@
 import { observer } from "mobx-react-lite";
+import { Button } from "antd-mobile";
 import { IdentityTypes } from "@/types";
 import ChannelDetail from "./ChannelDetail";
 import CreatorDetail from "./CreatorDetail";
@@ -21,8 +22,8 @@ const IdentityDetail = (props: IProps) => {
   }
 
   return (
-    <div>
-      <h1>IdentityDetail</h1>
+    <div className="entertainer">
+      <Button className="not-open-btn">NOT OPEN</Button>
     </div>
   );
 };

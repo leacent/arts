@@ -1,4 +1,4 @@
-import { useTonAddress } from "@tonconnect/ui-react";
+import { useTonAddress, useTonConnectUI } from "@tonconnect/ui-react";
 
 import { Popup, Space, Button } from "antd-mobile";
 import { observer } from "mobx-react-lite";
@@ -10,12 +10,18 @@ import { fetchNickName } from "./fetchNickName";
 
 const Personal = () => {
   const userFriendlyAddress = useTonAddress();
+  const [tonConnectUI] = useTonConnectUI();
 
   useEffect(() => {
     // fetchNickName().then((res) => {
     //   console.log("res fetchNickName", res);
     // });
   }, []);
+
+  const onDisconnect = () => {
+    tonConnectUI.disconnect();
+    store.personalModalVisibility = false;
+  };
 
   return (
     <Popup
@@ -101,6 +107,7 @@ const Personal = () => {
             BUY
           </Button>
           <Button
+            onClick={() => onDisconnect()}
             style={{ color: "#fff", backgroundColor: "#8F33D8" }}
             className="buy-btn"
           >

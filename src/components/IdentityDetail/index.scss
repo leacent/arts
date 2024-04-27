@@ -213,3 +213,28 @@
     line-height: normal;
   }
 }
+
+.entertainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  margin-bottom: 120px;
+
+  .not-open-btn {
+    margin: 0 auto;
+    width: 183px;
+    height: 39px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(180deg, #a8a8a8 7.69%, #494949 100%);
+    color: #fff;
+    text-align: justify;
+    font-family: "RubikMonoOne";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+}
