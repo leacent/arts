@@ -35,7 +35,7 @@ export default function Home() {
             className="art-btn"
             width={66}
             height={32}
-            src="/imgs/ent-btn.png"
+            src="/imgs/art-btn.png"
             alt="art-btn"
           ></Image>
         </div>

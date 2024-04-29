@@ -1,4 +1,4 @@
-@import '@/css/reset.css';
+@import "@/css/reset.css";
 
 * {
   margin: 0;
@@ -8,13 +8,15 @@
 @font-face {
   font-family: "FredokaLight";
   font-weight: 400;
-  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf")
+    format("truetype");
 }
 
 @font-face {
   font-family: "FredokaWeight";
   font-weight: 900;
-  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("/fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf")
+    format("truetype");
 }
 
 @font-face {
@@ -26,5 +28,8 @@
 body {
   height: 100%;
   width: 100vw;
-  background-color: #11323D;
+  background-color: #11323d;
+  // background: linear-gradient(to bottom right, #11323d, #0f1027);
+  background: linear-gradient(220deg, #11323d 0.32%, #0f1027 71.37%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
