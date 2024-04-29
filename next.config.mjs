@@ -3,7 +3,7 @@
 const API_URL = process.env.API_URL;
 
 const nextConfig = {
-  output: "export",
+  // output: "export",
   images: {
     unoptimized: true,
   },
