@@ -1,0 +1,134 @@
+.ido-page {
+  color: #fff;
+  font-family: Rubik;
+  min-height: 100vh;
+  background: linear-gradient(220deg, #11323d 0.32%, #0f1027 71.37%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  .count-down-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 27px;
+    margin-top: 55px;
+
+    .count-down-title {
+      color: #fff;
+      text-align: justify;
+      font-family: Rubik;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .number-wrapper {
+      display: flex;
+      justify-content: flex-end;
+
+      .number-item {
+        width: 43px;
+        height: 17px;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        margin-right: 10px;
+        color: #fff;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      .number-item:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .total-raised,
+  .price-box {
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 30px;
+    padding-right: 27px;
+    margin-top: 30px;
+  }
+
+  .raised-progress {
+    flex: 1;
+    margin-left: 20px;
+  }
+  .raised-label {
+    color: #fff;
+    text-align: right;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .ido-buy {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 17px;
+    margin-top: 25px;
+
+    .buy-input-wrapper {
+      display: flex;
+      width: 284px;
+      height: 32px;
+      border: 1px solid #d844f0;
+      align-items: center;
+      padding-right: 6px;
+      border-radius: 6px;
+      padding-left: 12px;
+
+      .ido-input input::placeholder {
+        font-size: 12px;
+      }
+
+      .max-button {
+        height: 22px;
+        width: 70px;
+        background-color: #7d4097;
+        border: 2px solid #8684df;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 15spx;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0;
+        border-radius: 14px;
+      }
+    }
+
+    .ido-buy-btn {
+      background-color: #7d4097;
+      border: 2px solid #8684df;
+      color: #fff;
+      font-size: 15px;
+      border-radius: 14px;
+      width: 60px;
+      height: 32px;
+      text-align: center;
+    }
+  }
+}

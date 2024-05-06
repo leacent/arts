@@ -1,0 +1,183 @@
+.upload-works {
+  font-family: "Rubik One";
+  color: #fff;
+  font-size: 12px;
+  min-height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(220deg, #11323d 0.32%, #0f1027 71.37%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  .upload-box {
+    width: 374px;
+    height: 340px;
+    background-image: url(/imgs/upload-works-bg.png);
+    background-size: 414px 380px;
+    background-position: center;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    .upload-works-title {
+      color: #fff;
+      text-align: center;
+      font-family: "RubikMonoOne";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 100%;
+    }
+
+    .uoload-form-box {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 38px;
+
+      .upload-left {
+        flex: 1;
+
+        .adm-image-uploader-upload-button-wrap
+          .adm-image-uploader-upload-button {
+          width: 136px;
+          height: 136px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 19px;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0.2) 0%,
+            rgba(115, 115, 115, 0.2) 100%
+          );
+        }
+
+        .uploaded-img {
+          margin-left: 20px;
+          border-radius: 19px;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0.2) 0%,
+            rgba(115, 115, 115, 0.2) 100%
+          );
+        }
+
+        .before-upload-img {
+          margin-left: 20px;
+          margin-top: 38px;
+          border-radius: 19px;
+        }
+
+        .upload-input {
+          width: 136px;
+          height: 25px;
+          text-align: center;
+          border-radius: 3px;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0.2) 0%,
+            rgba(115, 115, 115, 0.2) 100%
+          );
+          margin-left: 20px;
+          margin-top: 8px;
+
+          .adm-input-element {
+            color: #fff;
+            font-size: 10px;
+            text-align: center;
+          }
+        }
+
+        .upload-input input::placeholder {
+          color: #fff;
+          text-align: center;
+          vertical-align: middle;
+          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+          font-family: Rubik;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+
+      .upload-form-right {
+        width: 170px;
+        margin-right: 20px;
+
+        .upload-form-title {
+          color: #fff;
+          text-align: center;
+          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+          font-family: "RubikMonoOne";
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
+
+        .adm-radio-icon {
+          width: 8px;
+          height: 8px;
+        }
+        .adm-radio .adm-radio-content {
+          font-size: 10px;
+          color: #fff;
+          font-family: "RubikOne";
+          font-size: 8px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-right: 24px;
+          width: 38px;
+        }
+
+        .work-type {
+          padding: 6px 14px;
+          border-radius: 3px;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0.2) 0%,
+            rgba(115, 115, 115, 0.2) 100%
+          );
+        }
+
+        .creative-area {
+          margin-top: 20px;
+          padding: 6px 14px;
+          border-radius: 3px;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0.2) 0%,
+            rgba(115, 115, 115, 0.2) 100%
+          );
+        }
+      }
+    }
+
+    .create-btn {
+      margin: 0 auto;
+      margin-top: 30px;
+      border-radius: 19px;
+      background: var(
+        --pB_1,
+        linear-gradient(91deg, #8c3c99 1.01%, #345992 99.2%)
+      );
+      width: 156px;
+      height: 29px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: "RubikMonoOne";
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

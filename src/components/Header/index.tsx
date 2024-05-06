@@ -26,13 +26,15 @@ const Header = () => {
   return (
     <div className="header">
       <div className="icon-box">
-        <Image
-          className="menu-icon"
-          width={33}
-          height={33}
-          src="/imgs/menu.png"
-          alt="menu"
-        ></Image>
+        <Link href="/more">
+          <Image
+            className="menu-icon"
+            width={33}
+            height={33}
+            src="/imgs/menu.png"
+            alt="menu"
+          ></Image>
+        </Link>
         <Link href="/">
           <Image
             className="logo-icon"

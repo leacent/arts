@@ -1,0 +1,86 @@
+.more-page {
+  font-family: "Rubik One";
+  color: #fff;
+  font-size: 12px;
+  min-height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(220deg, #11323d 0.32%, #0f1027 71.37%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  .more-box {
+    width: 372px;
+    height: 347px;
+    background-image: url(/imgs/more-bg.png);
+    background-size: 100% 100%;
+
+    .more-item {
+      padding-left: 16px;
+
+      .handle-title {
+        display: flex;
+        align-items: center;
+        margin-top: 17px;
+
+        .main-title {
+          font-size: 12px;
+          color: #fff;
+          font-family: "Rubik One";
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-right: 6px;
+        }
+        .title-descript {
+          color: rgba(255, 255, 255, 0.5);
+          font-family: Rubik;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .connect-btn {
+        width: 152px;
+        height: 33px;
+        margin-top: 24px;
+      }
+
+      .retweet {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+      }
+      .tweeter-link {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Rubik;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 14px;
+      }
+      .verify-btn {
+        width: 118px;
+        height: 34px;
+        margin-top: 20px;
+      }
+    }
+
+    .divider {
+      height: 5px;
+      width: 100%;
+      margin: 20px 0;
+      background-color: #2c8996;
+    }
+  }
+
+  .start-ocean {
+    margin-top: 33px;
+  }
+}

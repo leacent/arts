@@ -1,8 +1,14 @@
 "use client";
 
+import { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 import Image from "next/image";
-import { IdentityTypes } from "@/types";
 import "./page.scss";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-coverflow";
 
 export default function Home() {
   const onStart = () => {
@@ -12,16 +18,56 @@ export default function Home() {
   return (
     <main>
       <div className="app">
-        <div className="introduction">
-          <Image
-            className="introduction-img"
-            width={381}
-            height={373}
-            src="/imgs/introduce.png"
-            alt="introduction"
-          ></Image>
-          <div onClick={() => onStart()} className="start-button"></div>
-        </div>
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          autoplay={{
+            delay: 4000,
+          }}
+          speed={800}
+          loop
+          modules={[EffectCoverflow, Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <Image
+              className="introduction-img"
+              width={381}
+              height={373}
+              src="/imgs/introduce.png"
+              alt="introduction"
+            ></Image>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image
+              className="introduction-img"
+              width={381}
+              height={373}
+              src="/imgs/introduce_2.png"
+              alt="introduction"
+            ></Image>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image
+              className="introduction-img"
+              width={381}
+              height={373}
+              src="/imgs/introduce_3.png"
+              alt="introduction"
+            ></Image>
+          </SwiperSlide>
+        </Swiper>
 
         <div className="token-wrapper">
           <Image
